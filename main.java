@@ -9,10 +9,8 @@ public class main {
 		//CPの答えを決定する
 		int[] CpAns = ThreeDigitNum();
 		
-		
 		//乱数の確認(後ほどコメントアウト)
-		System.out.print("\n(CPの答えは" + CpAns[0] + CpAns[1] + CpAns[2] + ")");
-		
+		//System.out.print("\n(CPの答えは" + CpAns[0] + CpAns[1] + CpAns[2] + ")");
 		
 		//hit、blow(hitのみ初期化しているのは後の処理の都合)
 		int hit = 0;
