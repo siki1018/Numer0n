@@ -1,5 +1,5 @@
-import java.util.Scanner;
-//配列の[0]を百の位、[1]を十の位、[2]を一の位と処理していく
+import java.util.*;
+//配列の[0]を百の位、[1]を十の位、[2]を一の位とする
 public class main {
 	public static void main(String[] args) {
 		int n = 10;
@@ -60,9 +60,9 @@ public class main {
 		int b;
 		int c;
 		do {
-			a = new java.util.Random().nextInt(10);
-			b = new java.util.Random().nextInt(10);
-			c = new java.util.Random().nextInt(10);
+			a = new Random().nextInt(10);
+			b = new Random().nextInt(10);
+			c = new Random().nextInt(10);
 		}while(a == b || b == c || c == a || a == 0 || b == 0 || c == 0);
 		int[] ans = {a, b, c};
 		return ans;
