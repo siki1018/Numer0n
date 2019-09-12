@@ -91,8 +91,8 @@ public class main {
 				break;
 			}
 			System.out.print("再度、予想を入力してください:");
-			int MyAns01 = new Scanner(System.in).nextInt();
-			MyAns = MyAns01;
+			int NewMyAns = new Scanner(System.in).nextInt();
+			MyAns = NewMyAns;
 		}
 		//配列化
 		int A = (int)(MyAns / 100);
