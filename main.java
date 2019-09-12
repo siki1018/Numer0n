@@ -11,9 +11,7 @@ public class main {
 		
 		
 		//乱数の確認(後ほどコメントアウト)
-		System.out.print("\n(CPの答えは");
-		for(int Cp : CpAns){ System.out.print(Cp); }
-		System.out.println(")");
+		System.out.print("\n(CPの答えは" + CpAns[0] + CpAns[1] + CpAns[2] + ")");
 		
 		
 		//hit、blow(hitのみ初期化しているのは後の処理の都合)
@@ -50,7 +48,7 @@ public class main {
 				break;
 			}
 		}
-		if(hit < 3) { System.out.println("あなたの負けです…私の数字は" + CpAns + "でした。"); }
+		if(hit < 3) { System.out.println("あなたの負けです…私の数字は" + CpAns[0] + CpAns[1] + CpAns[2] + "でした。"); }
 		
 	}
 	
